@@ -4,7 +4,7 @@
 
 #pragma once
 
-namespace   air {;
+namespace   air {
 
 class trainer {
 

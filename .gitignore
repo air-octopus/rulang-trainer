@@ -1,5 +1,8 @@
-# Файлы проекта PyCharm
+# Файлы проектов IDE от JetBrains (Idea, CLion, PyCharm)
 /.idea/**
+
+# Временные файлы компиляции
+/cmake-build*/**
 
 # Локальные конфигурационные файлы
 *.user

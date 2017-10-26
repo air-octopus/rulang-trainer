@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(trainer)
+project(trainer_lib)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -15,4 +15,6 @@ set(SOURCE_FILES
         Exercise.cpp
 )
 
-add_library(lib STATIC ${SOURCE_FILES} ${HEADER_FILES})
+add_library(${PROJECT_NAME} STATIC
+        ${SOURCE_FILES} ${HEADER_FILES}
+)
