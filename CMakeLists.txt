@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.8)
-project(rulang_trainer)
+project(rulang-trainer)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(src/rulang-trainer-lib)
+add_subdirectory(src/rulang_trainer_lib)
 
-add_subdirectory(src/rulang-trainer-app)
+add_subdirectory(src/rulang_trainer_app)
 
