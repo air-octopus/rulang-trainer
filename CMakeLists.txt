@@ -7,4 +7,6 @@ add_subdirectory(src/rulang_trainer_lib)
 
 add_subdirectory(src/rulang_trainer_app)
 
+add_subdirectory(src/third_party_supply)
+
 add_subdirectory(third_party/sqlitepp)
