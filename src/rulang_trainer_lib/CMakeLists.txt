@@ -8,13 +8,15 @@ set(HEADER_FILES
         Trainer.h
         ExercisePool.h
         Exercise.h
+        Student.h
 )
 
 set(SOURCE_FILES
         Trainer.cpp
         ExercisePool.cpp
         Exercise.cpp
-)
+        Student.cpp
+        Admin.cpp Admin.h)
 
 add_library(${PROJECT_NAME} STATIC
         ${SOURCE_FILES} ${HEADER_FILES}

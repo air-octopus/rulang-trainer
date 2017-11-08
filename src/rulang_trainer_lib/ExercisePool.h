@@ -4,9 +4,10 @@
 
 #pragma once
 
+namespace air {
 
 class ExercisePool {
 
 };
 
-
+} // air
