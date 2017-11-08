@@ -7,7 +7,8 @@
 #include <bits/shared_ptr.h>
 #include <vector>
 
-namespace air {
+namespace air       {
+namespace trainer   {
 
 class Student {
 public:
@@ -18,4 +19,4 @@ public:
 
 };
 
-} // air
+} } // namespace air::trainer

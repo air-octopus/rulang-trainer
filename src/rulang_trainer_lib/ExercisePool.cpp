@@ -3,3 +3,9 @@
 //
 
 #include "ExercisePool.h"
+
+namespace air       {
+namespace trainer   {
+
+
+} } // namespace air::trainer

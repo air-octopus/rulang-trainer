@@ -7,7 +7,8 @@
 #include "Student.h"
 #include "Admin.h"
 
-namespace air {
+namespace air       {
+namespace trainer   {
 
 class Trainer {
 public:
@@ -28,4 +29,4 @@ public:
 
 };
 
-} // air
+} } // namespace air::trainer

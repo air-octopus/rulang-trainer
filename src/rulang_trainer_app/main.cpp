@@ -1,6 +1,9 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
+namespace air       {
+namespace trainer   {
+
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
@@ -13,3 +16,5 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
+
+} } // namespace air::trainer

@@ -3,3 +3,9 @@
 //
 
 #include "Trainer.h"
+
+namespace air       {
+namespace trainer   {
+
+
+} } // namespace air::trainer

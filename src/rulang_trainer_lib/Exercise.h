@@ -4,10 +4,11 @@
 
 #pragma once
 
-namespace air {
+namespace air       {
+namespace trainer   {
 
 class Exercise {
 
 };
 
-} // air
+} } // namespace air::trainer
